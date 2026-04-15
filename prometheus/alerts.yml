@@ -1,0 +1,11 @@
+groups:
+  - name: app-alerts
+    rules:
+      - alert: AppSemRequisicoes
+        expr: rate(http_requests_total[1m]) == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Nenhuma requisição na aplicação"
+          description: "A aplicação não recebeu requisições no último minuto"
