@@ -41,3 +41,6 @@ Observabilidade
 Monitoramento
 Alerting
 Simulação de falhas
+
+## 🚀 Autor
+Guilherme Augusto
