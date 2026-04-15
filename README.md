@@ -19,12 +19,12 @@ Este projeto simula um ambiente real de SRE com:
 ```bash
 docker-compose up --build
 
-🌐 Acessos
+## 🌐 Acessos
 App: http://localhost:3000
 Prometheus: http://localhost:9090
 Grafana: http://localhost:3001
 
-🚨 Alertas
+## 🚨 Alertas
 
 Alerta configurado:
 
@@ -32,7 +32,8 @@ App sem requisições
 🧪 Testes
 Gerar tráfego → atualizar app
 Parar tráfego → alerta dispara
-🎯 Objetivo
+
+##🎯 Objetivo
 
 Demonstrar conceitos de SRE:
 
