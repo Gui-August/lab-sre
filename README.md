@@ -16,7 +16,7 @@ Este projeto simula um ambiente real de SRE com:
 
 ## ▶️ Como rodar
 
-```bash
+## bash
 docker-compose up --build
 
 ## 🌐 Acessos
